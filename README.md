@@ -2,9 +2,10 @@
 Proyecto Unity para cargar y transformar modelos de monou avatares a format UMA 
 
 ### Instalación
-- Descargar el repositorio
-- Abrirlo en Unity
-- Instalar el Paquete UMA https://assetstore.unity.com/packages/3d/characters/uma-2-unity-multipurpose-avatar-35611
+- Descargar este repositorio
+- Descargar el repositorio UMA https://github.com/umasteeringgroup/UMA
+- Copiar del reo UMA la carpeta UMAProject/Assets/UMA dentro de este repo en la carpeta /Assets, de modo que quede /Assets/UMA
+- Abrir este repo en Unity
 
 ### Creación y uso de los paquetes AssetBundle
 - Abrir la ventana UMA assetBundle: UMA > UMA AssetBundle Manager
