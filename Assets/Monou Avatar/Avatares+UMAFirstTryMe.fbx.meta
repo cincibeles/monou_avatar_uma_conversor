@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: 6819f9385c139104fa1f067bb2ef3364
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -8985820922096193888
+    second: UMA_Female_Rig|UMA_Female_Rig|UMA_Female_Rig|Female_FacialExpressions
   externalObjects:
   - first:
       type: UnityEngine:Material
