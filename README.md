@@ -7,6 +7,7 @@ Proyecto Unity para cargar y transformar modelos de monou avatares a format UMA
 - Instalar Paquete UMA https://assetstore.unity.com/packages/3d/characters/uma-2-unity-multipurpose-avatar-35611
 - Insertar en la escena el asset Assets/UMA/Getting Started/Deprecated/UMA_DCS
 - Insertar en la escena el asset Assets/UMA/Getting Started/UMADynamicCharacterAvatar.prefab
+- Unity corrompe algunos archivos al arrancar, de modo que hay que recuperarlos con el siguiente comando de git ´´´git restore "Assets/Monou Avatar"´´´, así con cada objeto UMAnizado
 - Abrir la ventana "Global Library" en UMA>Global Library
 - Arrastrar la carpeta Assets/Monou Avatar al primer cuadro inferior izquierdo "Drag Indenxable Assets..."
 - Seleccionar el objeto en escena UMADynamicCharacterAvatar y cambiar su atributo "Active Race" a el valor "Monou"
