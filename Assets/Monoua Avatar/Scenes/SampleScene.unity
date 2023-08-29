@@ -3611,7 +3611,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392514368}
-  m_LocalRotation: {x: 0.07712936, y: 0.02198852, z: -0.061034102, w: 0.9949082}
+  m_LocalRotation: {x: 0.077129364, y: 0.02198852, z: -0.061034106, w: 0.9949082}
   m_LocalPosition: {x: 0.066720404, y: 0.16901529, z: -0.0014781443}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3737,7 +3737,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397339647}
-  m_LocalRotation: {x: 0.097058475, y: -0.0055671325, z: 0.015118676, w: 0.99514836}
+  m_LocalRotation: {x: 0.097058415, y: -0.0055671325, z: 0.015118669, w: 0.99514836}
   m_LocalPosition: {x: -0.00000080461996, y: 2.8543942, z: 0.000000238406}
   m_LocalScale: {x: 1.0000033, y: 0.99996, z: 1.0000404}
   m_ConstrainProportionsScale: 0
@@ -15253,7 +15253,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835658990}
-  m_LocalRotation: {x: 0.006040715, y: -0.052890223, z: 0.050789226, w: -0.9972897}
+  m_LocalRotation: {x: 0.0060407077, y: -0.052890223, z: 0.050789166, w: -0.9972897}
   m_LocalPosition: {x: 1.1193612, y: 2.187367, z: 0.073459044}
   m_LocalScale: {x: 1.0000008, y: 1.0000451, z: 0.9999587}
   m_ConstrainProportionsScale: 0
@@ -18107,15 +18107,6 @@ MonoBehaviour:
       _compatibleRaces:
       - MonouA
     - _recipeName: pupilas_02_Recipe
-      _compatibleRaces:
-      - MonouA
-    - _recipeName: pupilas_05_Recipe
-      _compatibleRaces:
-      - MonouA
-    - _recipeName: pupilas_06_Recipe
-      _compatibleRaces:
-      - MonouA
-    - _recipeName: monou_mascara_01_Recipe
       _compatibleRaces:
       - MonouA
   raceAnimationControllers:
