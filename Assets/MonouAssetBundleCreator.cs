@@ -8,43 +8,43 @@ using System.IO;
 
 public class MonouAssetBundleCreator : MonoBehaviour
 {
-    [MenuItem("Assets/Monou Build Asset Bundle")]
+    [MenuItem("Assets/MonouT Build Asset Bundle")]
     static void BuildBundles(){
 
         List<BundleB> file2Bundle = new List<BundleB>();
 
         // *** RACE
-        DirectoryInfo info = new DirectoryInfo("Assets/Monou Avatar/race");
+        DirectoryInfo info = new DirectoryInfo("Assets/Monout Avatar/race");
         var directoriesInfo = info.GetDirectories();
         foreach(DirectoryInfo directory in directoriesInfo){
             var directoryFileInfo = directory.GetFiles();
             foreach(FileInfo file in directoryFileInfo)
                 if(file.Name.Substring(file.Name.Length - 5) != ".meta")
-                    file2Bundle.Add(new BundleB("Assets/Monou Avatar/race/" + directory.Name + "/" + file.Name, "race"));
+                    file2Bundle.Add(new BundleB("Assets/Monout Avatar/race/" + directory.Name + "/" + file.Name, "race"));
         }
         var fileInfo = info.GetFiles();
         foreach(FileInfo file in fileInfo)
             if(file.Name.Substring(file.Name.Length - 5) != ".meta")
-                file2Bundle.Add(new BundleB("Assets/Monou Avatar/race/" + file.Name, "race"));
+                file2Bundle.Add(new BundleB("Assets/Monout Avatar/race/" + file.Name, "race"));
 
         // *** CLOTHES 
-        info = new DirectoryInfo("Assets/Monou Avatar/clothes");
+        info = new DirectoryInfo("Assets/Monout Avatar/clothes");
         directoriesInfo = info.GetDirectories();
         foreach(DirectoryInfo directory in directoriesInfo){
             var directoryFileInfo = directory.GetFiles();
             foreach(FileInfo file in directoryFileInfo)
                 if(file.Name.Substring(file.Name.Length - 5) != ".meta")
-                    file2Bundle.Add(new BundleB("Assets/Monou Avatar/clothes/" + directory.Name + "/" + file.Name, directory.Name));
+                    file2Bundle.Add(new BundleB("Assets/Monout Avatar/clothes/" + directory.Name + "/" + file.Name, directory.Name));
         }
 
         // *** ANIMATIONS 
-        info = new DirectoryInfo("Assets/Monou Avatar/animations");
+        info = new DirectoryInfo("Assets/Monout Avatar/animations");
         directoriesInfo = info.GetDirectories();
         foreach(DirectoryInfo directory in directoriesInfo){
             var directoryFileInfo = directory.GetFiles();
             foreach(FileInfo file in directoryFileInfo)
                 if(file.Name.Substring(file.Name.Length - 5) != ".meta")
-                    file2Bundle.Add(new BundleB("Assets/Monou Avatar/animations/" + directory.Name + "/" + file.Name, directory.Name));
+                    file2Bundle.Add(new BundleB("Assets/Monout Avatar/animations/" + directory.Name + "/" + file.Name, directory.Name));
         }
 
         int idx = -1;
