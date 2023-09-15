@@ -26,12 +26,36 @@ MonoBehaviour:
   Hides:
   - orejas_T
   HideTags: []
-  suppressWardrobeSlots: []
+  suppressWardrobeSlots:
+  - Hair
+  - sombrero
+  - zapatos
+  - leggins
+  - pantalon
+  - playera
+  - chamarra
+  - nariz
+  - ojos
+  - cejas
+  - cabello
+  - boca
+  - aretes
+  - socks
+  - barba
+  - guantes
+  - lentes
+  - perforaciones
+  - mascarillas
+  - vestido
+  - falda
+  - short
+  - mascara
+  - calentadores
   activeWardrobeSet: []
   MeshHideAssets: []
   OverrideDNA:
     PreloadValues: []
-  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"ranger_01_cinturon_Slot","scale":100,"copyIdx":-1,"overlays":[{"id":"ranger_01_cinturon_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"ranger_01_helmet_Slot","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"ranger_01_lHand_Slot","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"ranger_01_rHand_Slot","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"body_T1","scale":100,"copyIdx":-1,"overlays":[{"id":"ranger_01_body_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"cabeza_T","scale":100,"copyIdx":-1,"overlays":[{"id":"ranger_01_helmet_Overlay","colorIdx":1,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"","colors":[255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"ranger_01_rHand_Slot","scale":100,"copyIdx":-1,"overlays":[{"id":"ranger_01_cinturon_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"ranger_01_lHand_Slot","scale":100,"copyIdx":6,"overlays":[],"Tags":[],"Races":[]},{"id":"ranger_01_helmet_Slot","scale":100,"copyIdx":6,"overlays":[],"Tags":[],"Races":[]},{"id":"body_T1","scale":100,"copyIdx":-1,"overlays":[{"id":"ranger_01_body_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"cabeza_T","scale":100,"copyIdx":-1,"overlays":[{"id":"ranger_01_helmet_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":0,"race":"","packedDna":[]}'
   IncompatibleRecipes: []
   UserField: 
   replaces: Nothing

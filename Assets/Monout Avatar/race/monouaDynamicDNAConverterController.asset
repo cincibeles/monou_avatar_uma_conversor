@@ -15,9 +15,10 @@ MonoBehaviour:
   _dnaAsset: {fileID: 11400000, guid: 33c7873dc17e6884ea88b46c1c846e36, type: 2}
   _plugins:
   - {fileID: 8745755814753406938}
+  - {fileID: 4636870463690097597}
   _overallModifiers:
     _adjustScale: 0
-    _adjustHeight: 0
+    _adjustHeight: 1
     _adjustRadius: 0
     _adjustMass: 0
     _updateBounds: 0
@@ -26,12 +27,790 @@ MonoBehaviour:
     _scale: 1
     _bone: Position
     _scaleBoneHash: -1084586333
-    _headRatio: 7.5
+    _headRatio: 6.7
     _radiusAdjustY: 0.01
     _radiusAdjust: {x: 0.23, y: 0}
     _massAdjust: {x: 46, y: 26, z: 26}
     _boundsAdjust: {x: 0, y: 0, z: 0}
   _displayValue: 
+--- !u!114 &4636870463690097597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fb5c7be33cb104bb2a880b52b840d3, type: 3}
+  m_Name: BlendshapeDNAConverters
+  m_EditorClassIdentifier: 
+  masterWeight:
+    _masterWeightType: 0
+    _globalWeight: 1
+    _DNAForWeight:
+      _calcOption: 0
+      _dnaName: 
+      _dnaNameHash: 0
+      _evaluator:
+        _name: Raw
+        _graph:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.5
+            value: 0.5
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+      _multiplier: 1
+      _initialized: 1
+  _converterController: {fileID: 11400000}
+  _blendshapeDNAConverters:
+  - _blendshapeToApply: BS_Ojos.monou_ojos01_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_01
+        _dnaNameHash: -1033011228
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos02_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_02
+        _dnaNameHash: 1533292126
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos03_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_03
+        _dnaNameHash: 744693448
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos04_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_04
+        _dnaNameHash: -1308128405
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos05_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_05
+        _dnaNameHash: -989807619
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos06_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_06
+        _dnaNameHash: 1544153671
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos07_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_07
+        _dnaNameHash: 722393809
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos08_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_08
+        _dnaNameHash: -1145977024
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos09_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_09
+        _dnaNameHash: -860424234
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos10_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_10
+        _dnaNameHash: -1401848269
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos11_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_11
+        _dnaNameHash: -613003611
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos_av1_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_av1
+        _dnaNameHash: -163628564
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos_av2_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_av2
+        _dnaNameHash: 1865836630
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos_av3_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_av3
+        _dnaNameHash: 405887168
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos_av4_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_av4
+        _dnaNameHash: -2041197213
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
+  - _blendshapeToApply: BS_Ojos.monou_ojos_av5_bs
+    _startingShapeWeight: 0
+    _modifyingDNA:
+      _dnaEvaluators:
+      - _calcOption: 0
+        _dnaName: ojos_av5
+        _dnaNameHash: -246219275
+        _evaluator:
+          _name: ZeroZeroOne
+          _graph:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 0.5
+              value: 0
+              inSlope: 0
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+        _multiplier: 1
+        _initialized: 1
+      _aggregationMethod: 0
 --- !u!114 &8745755814753406938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,7 +956,7 @@ MonoBehaviour:
                 m_PreInfinity: 2
                 m_PostInfinity: 2
                 m_RotationOrder: 4
-            _multiplier: 0.4
+            _multiplier: 0.5
             _initialized: 1
           _aggregationMethod: 1
       _min: 0.5
@@ -315,11 +1094,155 @@ MonoBehaviour:
                 m_PreInfinity: 2
                 m_PostInfinity: 2
                 m_RotationOrder: 4
-            _multiplier: 0.4
+            _multiplier: 0.5
             _initialized: 1
           _aggregationMethod: 1
       _min: 0.5
       _max: 1.5
+    _umaDNA:
+      dnaTypeHash: 82402080
+  - _hashName: LeftShoulder
+    _hash: 759586984
+    _property: 2
+    _valuesX:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators: []
+          _aggregationMethod: 1
+      _min: 0.5
+      _max: 1.5
+    _valuesY:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators:
+          - _calcOption: 0
+            _dnaName: Weight
+            _dnaNameHash: 6377591
+            _evaluator:
+              _name: DefaultInverted
+              _graph:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0.5
+                  inSlope: 0
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.5
+                  value: 0
+                  inSlope: -1
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: -0.5
+                  inSlope: -1
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            _multiplier: 0.45
+            _initialized: 1
+          _aggregationMethod: 1
+      _min: 0.5
+      _max: 1.5
+    _valuesZ:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators: []
+          _aggregationMethod: 1
+      _min: 0
+      _max: 5
+    _umaDNA:
+      dnaTypeHash: 82402080
+  - _hashName: RightShoulder
+    _hash: -167360539
+    _property: 2
+    _valuesX:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators: []
+          _aggregationMethod: 1
+      _min: 0.5
+      _max: 1.5
+    _valuesY:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators:
+          - _calcOption: 0
+            _dnaName: Weight
+            _dnaNameHash: 6377591
+            _evaluator:
+              _name: DefaultInverted
+              _graph:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0.5
+                  inSlope: 0
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.5
+                  value: 0
+                  inSlope: -1
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: -0.5
+                  inSlope: -1
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            _multiplier: 0.45
+            _initialized: 1
+          _aggregationMethod: 1
+      _min: 0.5
+      _max: 1.5
+    _valuesZ:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators: []
+          _aggregationMethod: 1
+      _min: 0
+      _max: 5
     _umaDNA:
       dnaTypeHash: 82402080
   - _hashName: Position

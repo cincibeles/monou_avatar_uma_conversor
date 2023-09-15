@@ -16,8 +16,24 @@ MonoBehaviour:
   lastKnownAssetPath: Assets/Monout Avatar/race/monouaDynamicUMADnaAsset.asset
   lastKnownDuplicateAssetPath: Assets/Monout Avatar/race/monouaDynamicUMADnaAsset
     1.asset
-  lastKnownInstanceID: 28296
+  lastKnownInstanceID: 24612
   Names:
   - Height
   - Weight
   - OffsetTop
+  - ojos_01
+  - ojos_02
+  - ojos_03
+  - ojos_04
+  - ojos_05
+  - ojos_06
+  - ojos_07
+  - ojos_08
+  - ojos_09
+  - ojos_10
+  - ojos_11
+  - ojos_av1
+  - ojos_av2
+  - ojos_av3
+  - ojos_av4
+  - ojos_av5

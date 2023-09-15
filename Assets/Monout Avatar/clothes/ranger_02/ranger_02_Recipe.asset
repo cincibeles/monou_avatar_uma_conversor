@@ -26,7 +26,30 @@ MonoBehaviour:
   Hides:
   - orejas_T
   HideTags: []
-  suppressWardrobeSlots: []
+  suppressWardrobeSlots:
+  - Hair
+  - zapatos
+  - leggins
+  - pantalon
+  - playera
+  - chamarra
+  - nariz
+  - ojos
+  - cejas
+  - cabello
+  - boca
+  - aretes
+  - socks
+  - barba
+  - guantes
+  - lentes
+  - perforaciones
+  - mascarillas
+  - vestido
+  - falda
+  - short
+  - mascara
+  - calentadores
   activeWardrobeSet: []
   MeshHideAssets: []
   OverrideDNA:
