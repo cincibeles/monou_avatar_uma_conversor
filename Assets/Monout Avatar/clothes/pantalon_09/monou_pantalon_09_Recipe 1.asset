@@ -23,7 +23,8 @@ MonoBehaviour:
     filename: 
     thumb: {fileID: 0}
   wardrobeSlot: falda
-  Hides: []
+  Hides:
+  - hips_part
   HideTags: []
   suppressWardrobeSlots: []
   activeWardrobeSet: []

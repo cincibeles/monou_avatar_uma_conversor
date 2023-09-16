@@ -24,10 +24,12 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: pantalon
   Hides:
-  - monoua_left_foreleg
-  - monoua_left_leg
-  - monoua_right_foreleg
-  - monoua_right_leg
+  - calf_L_part
+  - calf_R_part
+  - knee_L_part
+  - leg_L_part
+  - leg_R_part
+  - knee_R_part
   HideTags: []
   suppressWardrobeSlots:
   - vestido

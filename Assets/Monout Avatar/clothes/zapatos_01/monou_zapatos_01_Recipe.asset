@@ -24,6 +24,8 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: zapatos
   Hides:
+  - foot_L_part
+  - foot_R_part
   - monoua_feet
   HideTags: []
   suppressWardrobeSlots: []

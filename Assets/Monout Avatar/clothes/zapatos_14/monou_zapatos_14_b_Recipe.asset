@@ -23,7 +23,9 @@ MonoBehaviour:
     filename: 
     thumb: {fileID: 0}
   wardrobeSlot: zapatos
-  Hides: []
+  Hides:
+  - F_High poly head
+  - FemaleHands
   HideTags: []
   suppressWardrobeSlots: []
   activeWardrobeSet: []

@@ -24,6 +24,7 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: short
   Hides:
+  - hips_part
   - monoua_hips
   HideTags: []
   suppressWardrobeSlots: []

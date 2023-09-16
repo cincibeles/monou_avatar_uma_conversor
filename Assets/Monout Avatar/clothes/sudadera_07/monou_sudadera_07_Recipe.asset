@@ -24,14 +24,15 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: chamarra
   Hides:
-  - monoua_left_arm
-  - monoua_left_forearm
-  - monoua_right_arm
-  - monoua_right_forearm
-  - monoua_torso_left
-  - monoua_torso_right
-  - monoua_tummy_left
-  - monoua_tummy_right
+  - arm_L_part
+  - arm_R_part
+  - forearm_L_part
+  - forearm_R_part
+  - lowerBack_part
+  - pit_L_part
+  - pit_R_part
+  - ribs_part
+  - sides_part
   HideTags: []
   suppressWardrobeSlots: []
   activeWardrobeSet: []
