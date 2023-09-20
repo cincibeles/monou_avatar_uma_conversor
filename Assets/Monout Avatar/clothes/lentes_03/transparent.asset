@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   translateSRP: 0
   material: {fileID: 2100000, guid: 314a6d16124a9ba4f8037ba7716dfe80, type: 2}
-  materialType: 1
+  materialType: 2
   channels: []
   MipMapBias: 0
   AnisoLevel: 1

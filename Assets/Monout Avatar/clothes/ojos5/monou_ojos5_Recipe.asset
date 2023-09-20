@@ -24,7 +24,7 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: ojos
   Hides:
-  - monoua_head
+  - cabeza_T
   HideTags: []
   suppressWardrobeSlots: []
   activeWardrobeSet: []
@@ -33,7 +33,7 @@ MonoBehaviour:
     PreloadValues:
     - Name: ojos_05
       Value: 1
-  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"monou_cabeza_OG_bs","scale":100,"copyIdx":-1,"overlays":[{"id":"monoua_head_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"monou_ojos5_b","scale":100,"copyIdx":-1,"overlays":[{"id":"monou_ojos_Overlay","colorIdx":2,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0},{"id":"monou_iris2_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"Skin","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"Eyes","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"","colors":[255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":2,"race":"","packedDna":[]}'
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"monou_cabeza_OG_bs","scale":100,"copyIdx":-1,"overlays":[{"id":"monoua_head_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"monou_ojos5_b","scale":100,"copyIdx":-1,"overlays":[{"id":"monou_ojos_Overlay","colorIdx":2,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0},{"id":"monou_iris2_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"Skin","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"Eyes","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false},{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":2,"race":"","packedDna":[]}'
   IncompatibleRecipes: []
   UserField: 
   replaces: Nothing

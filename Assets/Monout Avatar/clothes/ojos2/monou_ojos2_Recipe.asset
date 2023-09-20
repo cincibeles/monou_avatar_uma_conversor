@@ -24,7 +24,7 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: ojos
   Hides:
-  - monoua_head
+  - cabeza_T
   HideTags: []
   suppressWardrobeSlots: []
   activeWardrobeSet: []

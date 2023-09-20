@@ -24,6 +24,7 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: pantalon
   Hides:
+  - hips_part
   - knee_L_part
   - leg_L_part
   - leg_R_part
