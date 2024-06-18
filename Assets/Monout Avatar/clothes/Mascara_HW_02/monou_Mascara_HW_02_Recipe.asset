@@ -25,8 +25,18 @@ MonoBehaviour:
   wardrobeSlot: mascara
   Hides:
   - cabeza_T
+  - orejas_T
   HideTags: []
-  suppressWardrobeSlots: []
+  suppressWardrobeSlots:
+  - cejas
+  - ojos
+  - cabello
+  - boca
+  - aretes
+  - barba
+  - perforaciones
+  - nariz
+  - mascarillas
   activeWardrobeSet: []
   MeshHideAssets: []
   OverrideDNA:

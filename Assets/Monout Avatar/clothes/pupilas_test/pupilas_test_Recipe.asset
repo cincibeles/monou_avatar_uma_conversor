@@ -22,7 +22,7 @@ MonoBehaviour:
   - race: MonouA
     filename: 
     thumb: {fileID: 0}
-  wardrobeSlot: iris
+  wardrobeSlot: None
   Hides:
   - monoua_core
   HideTags: []
