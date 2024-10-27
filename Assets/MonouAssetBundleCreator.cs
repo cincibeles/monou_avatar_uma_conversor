@@ -84,6 +84,10 @@ public class MonouAssetBundleCreator : MonoBehaviour
             theFinalBuildMap[i].assetNames = buildMap[i].assetNames;
         }
         BuildPipeline.BuildAssetBundles("Assets/AssetBundles", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.WebGL);
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundlesAndroid", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.Android);
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundlesWindows", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundlesIos", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.iOS);
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundlesOsx", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.StandaloneOSX);
     }
 }
 

@@ -8,7 +8,7 @@ using System.IO;
 
 public class MonouaAssetBundleCreator : MonoBehaviour
 {
-    [MenuItem("Assets/MonouA Build Asset Bundle")]
+    //[MenuItem("Assets/MonouA Build Asset Bundle")]
     static void BuildBundles(){
 
         List<BundleBa> file2Bundle = new List<BundleBa>();
@@ -84,6 +84,9 @@ public class MonouaAssetBundleCreator : MonoBehaviour
             theFinalBuildMap[i].assetNames = buildMap[i].assetNames;
         }
         BuildPipeline.BuildAssetBundles("Assets/AssetBundles", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.WebGL);
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundlesAndroid", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.Android);
+        BuildPipeline.BuildAssetBundles("Assets/AssetBundlesWindows", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.StandaloneWindows64);
+        //BuildPipeline.BuildAssetBundles("Assets/AssetBundlesIos", theFinalBuildMap, BuildAssetBundleOptions.None, BuildTarget.iOS);
     }
 }
 

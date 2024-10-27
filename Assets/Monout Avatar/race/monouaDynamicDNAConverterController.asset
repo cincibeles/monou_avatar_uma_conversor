@@ -1317,3 +1317,227 @@ MonoBehaviour:
       _max: 0.1
     _umaDNA:
       dnaTypeHash: 82402080
+  - _hashName: Hips
+    _hash: -556726767
+    _property: 2
+    _valuesX:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators:
+          - _calcOption: 0
+            _dnaName: Gender
+            _dnaNameHash: -1058336908
+            _evaluator:
+              _name: Default
+              _graph:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: -0.5
+                  inSlope: 0
+                  outSlope: 1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.5
+                  value: 0
+                  inSlope: 1
+                  outSlope: 1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: 0.5
+                  inSlope: 1
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            _multiplier: 1
+            _initialized: 1
+          _aggregationMethod: 1
+      _min: 1
+      _max: 3
+    _valuesY:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators: []
+          _aggregationMethod: 1
+      _min: 0
+      _max: 5
+    _valuesZ:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators:
+          - _calcOption: 0
+            _dnaName: Gender
+            _dnaNameHash: -1058336908
+            _evaluator:
+              _name: Default
+              _graph:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: -0.5
+                  inSlope: 0
+                  outSlope: 1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.5
+                  value: 0
+                  inSlope: 1
+                  outSlope: 1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: 0.5
+                  inSlope: 1
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            _multiplier: 1
+            _initialized: 1
+          _aggregationMethod: 1
+      _min: 1
+      _max: 3
+    _umaDNA:
+      dnaTypeHash: 82402080
+  - _hashName: LowerBack
+    _hash: -919067556
+    _property: 2
+    _valuesX:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators:
+          - _calcOption: 0
+            _dnaName: Gender
+            _dnaNameHash: -1058336908
+            _evaluator:
+              _name: DefaultInverted
+              _graph:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0.5
+                  inSlope: 0
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.5
+                  value: 0
+                  inSlope: -1
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: -0.5
+                  inSlope: -1
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            _multiplier: 1
+            _initialized: 1
+          _aggregationMethod: 1
+      _min: 0.66
+      _max: 1
+    _valuesY:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators: []
+          _aggregationMethod: 1
+      _min: 0
+      _max: 5
+    _valuesZ:
+      _val:
+        _value: 1
+        _modifiers: []
+        _modifyingDNA:
+          _dnaEvaluators:
+          - _calcOption: 0
+            _dnaName: Gender
+            _dnaNameHash: -1058336908
+            _evaluator:
+              _name: DefaultInverted
+              _graph:
+                serializedVersion: 2
+                m_Curve:
+                - serializedVersion: 3
+                  time: 0
+                  value: 0.5
+                  inSlope: 0
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 0.5
+                  value: 0
+                  inSlope: -1
+                  outSlope: -1
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                - serializedVersion: 3
+                  time: 1
+                  value: -0.5
+                  inSlope: -1
+                  outSlope: 2
+                  tangentMode: 0
+                  weightedMode: 0
+                  inWeight: 0
+                  outWeight: 0
+                m_PreInfinity: 2
+                m_PostInfinity: 2
+                m_RotationOrder: 4
+            _multiplier: 1
+            _initialized: 1
+          _aggregationMethod: 1
+      _min: 0.66
+      _max: 1
+    _umaDNA:
+      dnaTypeHash: 82402080

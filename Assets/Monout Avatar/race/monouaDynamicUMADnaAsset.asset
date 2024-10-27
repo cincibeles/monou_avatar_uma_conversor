@@ -16,7 +16,7 @@ MonoBehaviour:
   lastKnownAssetPath: Assets/Monout Avatar/race/monouaDynamicUMADnaAsset.asset
   lastKnownDuplicateAssetPath: Assets/Monout Avatar/race/monouaDynamicUMADnaAsset
     1.asset
-  lastKnownInstanceID: 31078
+  lastKnownInstanceID: 32118
   Names:
   - Height
   - Weight
@@ -37,3 +37,4 @@ MonoBehaviour:
   - ojos_av3
   - ojos_av4
   - ojos_av5
+  - Gender
