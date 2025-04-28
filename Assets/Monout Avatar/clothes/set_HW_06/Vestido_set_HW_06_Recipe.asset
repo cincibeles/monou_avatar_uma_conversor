@@ -24,6 +24,7 @@ MonoBehaviour:
     thumb: {fileID: 0}
   wardrobeSlot: conjunto
   Hides:
+  - cabeza_T
   - arm_L_part
   - arm_R_part
   - chest_part
@@ -51,11 +52,18 @@ MonoBehaviour:
   - short
   - bolso
   - calentadores
+  - cabello
+  - cejas
+  - ojos
+  - nariz
+  - boca
+  - aretes
+  - lentes
   activeWardrobeSet: []
   MeshHideAssets: []
   OverrideDNA:
     PreloadValues: []
-  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"Vestido_set_HW_06","scale":100,"copyIdx":-1,"overlays":[{"id":"Vestido_set_HW_06_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"monou_Zapatos_set_HW06_l","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"monou_Zapatos_set_HW06_r","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"body_T1","scale":100,"copyIdx":-1,"overlays":[{"id":"Vestido_set_HW_06_body_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":0,"race":"","packedDna":[]}'
+  recipeString: '{"version":3,"packedSlotDataList":[],"slotsV2":[],"slotsV3":[{"id":"Vestido_set_HW_06","scale":100,"copyIdx":-1,"overlays":[{"id":"Vestido_set_HW_06_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"","scale":1,"copyIdx":-1,"overlays":[],"Tags":[],"Races":[]},{"id":"monou_Zapatos_set_HW06_l","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"monou_Zapatos_set_HW06_r","scale":100,"copyIdx":0,"overlays":[],"Tags":[],"Races":[]},{"id":"body_T1","scale":100,"copyIdx":-1,"overlays":[{"id":"Vestido_set_HW_06_body_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]},{"id":"monou_Mascara_HW_01","scale":100,"copyIdx":-1,"overlays":[{"id":"monou_Mascara_HW_01_Overlay","colorIdx":0,"rect":[0.0,0.0,0.0,0.0],"isTransformed":false,"scale":{"x":1.0,"y":1.0,"z":1.0},"rotation":0.0}],"Tags":[],"Races":[]}],"colors":[],"fColors":[{"name":"-","colors":[255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0,255,255,255,255,0,0,0,0],"ShaderParms":[],"alwaysUpdate":false}],"sharedColorCount":0,"race":"","packedDna":[]}'
   IncompatibleRecipes: []
   UserField: 
   replaces: Nothing

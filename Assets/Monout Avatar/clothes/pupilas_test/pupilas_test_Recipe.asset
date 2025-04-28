@@ -17,12 +17,12 @@ MonoBehaviour:
   recipeType: Wardrobe
   DisplayValue: pupilas_test
   compatibleRaces:
-  - MonouA
+  - MonouT
   wardrobeRecipeThumbs:
-  - race: MonouA
+  - race: MonouT
     filename: 
     thumb: {fileID: 0}
-  wardrobeSlot: None
+  wardrobeSlot: iris
   Hides:
   - monoua_core
   HideTags: []
